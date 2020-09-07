@@ -118,9 +118,6 @@ X_valid = X_valid / 255.0
 X_test = X_test / 255.0
 ```
 
-The difference between the original data set and the augmented data set is the following ... 
-
-
 #### 2. Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
 
 I studied LeNet Architecture and soon I realized that there is a needs to be additional Convolutional Layer and Fully Connected Layer. Below if the table diagram describing my LeNet Architecture.
@@ -145,9 +142,9 @@ I studied LeNet Architecture and soon I realized that there is a needs to be add
 | RELU |	|
 | FC Layer 3 | Input 100 and Outputs 84 |
 | RELU |	|
-| FC Layer 4| Input 84 and Outputs 65 |
+| FC Layer 4 | Input 84 and Outputs 65 |
 | RELU |	|
-| FC Layer 5 Input 65 and Outputs 43 | 
+| FC Layer 5 | Input 65 and Outputs 43 | 
 
 ```python
 ### Define your architecture here.
